@@ -3,7 +3,7 @@ import pandas as pd
 
 # kaggle.api.authenticate()
 # dataset = 'gpreda/covid-world-vaccination-progress'
-# path = '/Users/GDRomaine/Data Science/COVID-19 Vax'
+# path = '/Users/GDRomaine/data_science/covid-19_vax'
 # kaggle.api.dataset_download_files(dataset, path=path, unzip=True)
 
 vax = pd.read_csv('country_vaccinations.csv')
