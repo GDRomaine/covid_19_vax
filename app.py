@@ -3,10 +3,10 @@ import pandas as pd
 
 # kaggle.api.authenticate()
 # dataset = 'gpreda/covid-world-vaccination-progress'
-# path = '/Users/GDRomaine/data_science/covid-19_vax'
-# kaggle.api.dataset_download_files(dataset, path=path, unzip=True)
+# path = '/Users/GDRomaine/ds/covid-19_vax'
+# kaggle.api.dataset_download_files(dataset, path, unzip=True)
 
-vax = pd.read_csv('country_vaccinations.csv')
+vax = pd.read_csv('/Users/GDRomaine/ds/covid-19_vax/country_vaccinations.csv')
 vax.date = pd.to_datetime(vax.date)
 
 import dash
